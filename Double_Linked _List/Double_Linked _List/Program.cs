@@ -12,11 +12,12 @@ namespace Double_Linked_List
         public int data;
         public Node Next;
         public Node Prev;
-        public Node(int data, Node Next = null, Node Prev = null)
+
+        public Node(int data, Node Next = null, Node Prev = null )
             {
             this.data = data;
             this.Next = Next;
-            this.Prev = Prev;                        
+            this.Prev = Prev;  
             }
     }
 
@@ -25,6 +26,8 @@ namespace Double_Linked_List
         public Node head = null;
         public Node tail = null;
         public Node node = null;
+        int pos = 0;
+
         public LinkedList() { }
 
 
@@ -53,16 +56,46 @@ namespace Double_Linked_List
 
         }
 
-       
+        public void appendAfter(int value, int addAfter)
+        {
+            Node tempHead = this.head; 
+            if (tempHead != null)
+
+                while (tempHead != null)
+                {
+                    if(tempHead.data == addAfter)
+                    {
+                        Node newNode = new Node(value);
+                        newNode.Prev= tempHead;
+                        newNode.Next = tempHead.Next;
+                        tempHead.Next = newNode;
+                        return;
+
+                    }
+                    else
+                    {
+                       tempHead= tempHead.Next;
+                    }
+
+
+                }
+            else
+            {
+                Console.WriteLine("thre are no node defined");
+            }
+          
+        }
+
 
         public void print()
         {
             Node temp = head;
             while (temp != null)
             {
-                Console.WriteLine(temp.data);
-                temp = temp.Next;
-
+                pos++;
+                Console.WriteLine("the posision of node " + (temp.data) + (" is ") + (pos));
+                temp = temp.Next;            
+                
             }
 
         }
@@ -89,8 +122,8 @@ namespace Double_Linked_List
             linkedList.append(1);
             linkedList.append(2);
             linkedList.append(3);
-           
-            linkedList.printRevese();
+            linkedList.appendAfter(10, 2);
+            linkedList.print();
         }
     }
 }
