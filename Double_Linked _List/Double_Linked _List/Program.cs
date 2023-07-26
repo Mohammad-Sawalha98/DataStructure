@@ -63,6 +63,7 @@ namespace Double_Linked_List
 
                 while (tempHead != null)
                 {
+
                     if(tempHead.data == addAfter)
                     {
                         Node newNode = new Node(value);
@@ -84,6 +85,32 @@ namespace Double_Linked_List
                 Console.WriteLine("thre are no node defined");
             }
           
+        }
+
+
+        public void Search(int value)
+        {
+            Node start = this.head;
+        if (start != null)
+            {
+                pos = 0;
+                while (start != null)
+                {
+                    pos++;
+                    if (start.data == value)
+                    {
+                        Console.WriteLine("The position of your node is : " + pos);
+                        return;
+                    }
+                    else
+                    {
+                        start= start.Next;
+                    }
+                   
+                }
+               
+            }
+
         }
 
 
@@ -124,6 +151,7 @@ namespace Double_Linked_List
             linkedList.append(3);
             linkedList.appendAfter(10, 2);
             linkedList.print();
+            linkedList.Search(10);
         }
     }
 }

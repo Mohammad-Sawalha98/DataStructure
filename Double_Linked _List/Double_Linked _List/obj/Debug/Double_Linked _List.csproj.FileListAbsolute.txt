@@ -6,3 +6,11 @@ C:\Users\HP\Desktop\Fission\Linked List\Double_Linked _List\Double_Linked _List\
 C:\Users\HP\Desktop\Fission\Linked List\Double_Linked _List\Double_Linked _List\obj\Debug\Double_Linked _List.csproj.CoreCompileInputs.cache
 C:\Users\HP\Desktop\Fission\Linked List\Double_Linked _List\Double_Linked _List\obj\Debug\Double_Linked _List.exe
 C:\Users\HP\Desktop\Fission\Linked List\Double_Linked _List\Double_Linked _List\obj\Debug\Double_Linked _List.pdb
+C:\Users\HP\DataStructure\Double_Linked _List\Double_Linked _List\bin\Debug\Double_Linked _List.exe.config
+C:\Users\HP\DataStructure\Double_Linked _List\Double_Linked _List\bin\Debug\Double_Linked _List.exe
+C:\Users\HP\DataStructure\Double_Linked _List\Double_Linked _List\bin\Debug\Double_Linked _List.pdb
+C:\Users\HP\DataStructure\Double_Linked _List\Double_Linked _List\obj\Debug\Double_Linked _List.csproj.AssemblyReference.cache
+C:\Users\HP\DataStructure\Double_Linked _List\Double_Linked _List\obj\Debug\Double_Linked _List.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\DataStructure\Double_Linked _List\Double_Linked _List\obj\Debug\Double_Linked _List.csproj.CoreCompileInputs.cache
+C:\Users\HP\DataStructure\Double_Linked _List\Double_Linked _List\obj\Debug\Double_Linked _List.exe
+C:\Users\HP\DataStructure\Double_Linked _List\Double_Linked _List\obj\Debug\Double_Linked _List.pdb
