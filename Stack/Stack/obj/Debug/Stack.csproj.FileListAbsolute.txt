@@ -1,0 +1,8 @@
+C:\Users\HP\DataStructure\Stack\Stack\bin\Debug\Stack.exe.config
+C:\Users\HP\DataStructure\Stack\Stack\bin\Debug\Stack.exe
+C:\Users\HP\DataStructure\Stack\Stack\bin\Debug\Stack.pdb
+C:\Users\HP\DataStructure\Stack\Stack\obj\Debug\Stack.csproj.AssemblyReference.cache
+C:\Users\HP\DataStructure\Stack\Stack\obj\Debug\Stack.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\DataStructure\Stack\Stack\obj\Debug\Stack.csproj.CoreCompileInputs.cache
+C:\Users\HP\DataStructure\Stack\Stack\obj\Debug\Stack.exe
+C:\Users\HP\DataStructure\Stack\Stack\obj\Debug\Stack.pdb
